@@ -6,7 +6,7 @@ export default function About() {
         backgroundColor:'white'
     })
 
-    const [btnText, setBtnText] = useState("Enable Dark Mode")
+    const [btnText, setBtnText] = useState("Enable Dark Mode");
     const toggleStyle =()=>{
         if(myStyle.color === 'black'){
             setMyStyle({
@@ -31,7 +31,7 @@ export default function About() {
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
-              className="accordion-button collapsed"
+              className="accordi on-button collapsed"
               type="button"
               style={myStyle}
               data-bs-toggle="collapse"
