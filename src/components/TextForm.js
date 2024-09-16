@@ -90,7 +90,7 @@ export default function TextForm(props) {
           {text.split(" ").length} words and {text.length} Characters.{" "}
         </p>
         <p>
-          {0.008 * text.split(" ").length} minutes take to read whole data...
+          {0.008 * text.split(" ").length} milliseconds take to read whole data...
         </p>
         <h2>Preview</h2>
         <p>
